@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "newstassta-mmeval_jd087"
+name = "newstassta-hybrid_retrieval_weights_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://newstassta.github.io"
-Repository = "https://github.com/newstassta/mmeval_jd087"
-Issues = "https://github.com/newstassta/mmeval_jd087/issues"
+Repository = "https://github.com/newstassta/hybrid_retrieval_weights_budget_alloc"
+Issues = "https://github.com/newstassta/hybrid_retrieval_weights_budget_alloc/issues"
 
 [project.scripts]
-mmeval_jd087 = "mmeval_jd087:main"
+hybrid_retrieval_weights_budget_alloc = "hybrid_retrieval_weights_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["mmeval_jd087"]
+py-modules = ["hybrid_retrieval_weights_budget_alloc"]
